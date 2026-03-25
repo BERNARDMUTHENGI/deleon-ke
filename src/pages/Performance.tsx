@@ -29,7 +29,7 @@ const Performance = () => (
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
         {stats.map((s) => (
           <div key={s.label} className="glass-card rounded-xl p-5">
-            <s.icon className="w-6 h-6 text-primary mb-3" />
+           
             <div className="text-2xl font-extrabold">{s.value}</div>
             <div className="text-sm font-medium text-foreground">{s.label}</div>
             <div className="text-xs text-muted-foreground mt-1">{s.sub}</div>
