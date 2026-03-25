@@ -8,10 +8,10 @@ const Footer = () => (
           alt="MushkertFX Logo"
           className="h-20 w-20 rounded-full object-cover"
         />
-        <span className="font-bold gold-text text-sm md:text-base">MushkertFX</span>
+        <span className="font-bold gold-text text-sm md:text-base">Deleon_ke</span>
       </div>
 
-      <span>© {new Date().getFullYear()} MushkertFX. All rights reserved.</span>
+      <span>© {new Date().getFullYear()} Deleon_ke. All rights reserved.</span>
       <span>Professional Gold Trading Signals</span>
     </div>
   </footer>

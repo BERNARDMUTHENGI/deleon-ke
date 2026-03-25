@@ -32,7 +32,7 @@ const Signals = () => (
   <div className="min-h-screen pt-24 pb-16">
     <div className="container max-w-5xl">
       <h1 className="text-3xl md:text-4xl font-extrabold mb-2">Trading <span className="gold-text">Signals</span></h1>
-      <p className="text-muted-foreground mb-8">Live and recent XAUUSD trading signals from MushkertFX.</p>
+      <p className="text-muted-foreground mb-8">Live and recent XAUUSD trading signals from DeleonFX.</p>
 
       <div className="grid gap-4">
         {signals.map((s) => (

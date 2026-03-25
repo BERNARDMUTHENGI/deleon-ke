@@ -1,7 +1,8 @@
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button"; // Ensure this path is correct
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -18,16 +19,15 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/70 shadow-md">
       <div className="container flex items-center justify-between h-26 px-4 md:px-0">
-
         {/* Logo + Name */}
         <Link to="/" className="flex items-center gap-2">
-       <img
-  src="/assets/Mushkert Logo.jpg" // your logo file
-  alt="MushkertFX Logo"
-  className="h-16 w-16 rounded-full object-cover"
-/>
+          <img
+            src="/assets/Mushkert Logo.jpg"
+            alt="MushkertFX Logo"
+            className="h-16 w-16 rounded-full object-cover"
+          />
           <span className="text-xl font-extrabold gold-text tracking-tight">
-            MushkertFX
+            Deleon_Ke
           </span>
         </Link>
 
@@ -58,6 +58,7 @@ const Navbar = () => {
         <button
           className="md:hidden text-foreground p-2 rounded-md hover:bg-background/20 transition"
           onClick={() => setOpen(!open)}
+          aria-label="Toggle menu"
         >
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>

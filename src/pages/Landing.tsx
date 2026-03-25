@@ -35,7 +35,7 @@ const benefits = [
   {
     icon: Users,
     title: "VIP Community",
-    desc: "Private Telegram group with real‑time discussions, trade reviews, and direct access to Mushkert.",
+    desc: "Private Telegram group with real‑time discussions, trade reviews, and direct access to .",
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
@@ -49,7 +49,7 @@ const benefits = [
 const testimonials = [
   {
     name: "James K.",
-    text: "MushkertFX signals changed my trading completely. Consistent profits every week.",
+    text: "DeleonFX signals changed my trading completely. Consistent profits every week.",
     rating: 5,
     role: "Full‑time Trader",
   },
@@ -113,7 +113,7 @@ const Landing = () => (
   Live signals running now – 87% win rate
 </div>
         <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1]">
-          <span className="text-yellow-400">MushkertFX</span> <span>Gold Signals</span>
+          <span className="text-yellow-400">Deleon_Ke</span> <span>Gold Signals</span>
         </h1>
 
         <p className="text-lg sm:text-xl md:text-xl text-white/80">
@@ -167,17 +167,17 @@ const Landing = () => (
 <section className="py-12 md:py-20">
   <div className="container max-w-4xl mx-auto">
     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center md:text-center">
-      About <span className="gold-text">MushkertFX</span>
+      About <span className="gold-text">Deleon_Ke</span>
     </h2>
     <p className="text-muted-foreground text-lg leading-relaxed text-left md:text-center px-4 md:px-0">
-      MushkertFX is a professional forex trader and educator specializing exclusively in XAUUSD (Gold).
-      With over 8 years of experience navigating volatile gold markets, Mushkert provides high‑probability
+      Deleon_Ke is a professional forex trader and educator specializing exclusively in XAUUSD (Gold).
+      With over 8 years of experience navigating volatile gold markets,  provides high‑probability
       trading signals and structured mentorship that have helped hundreds of traders achieve consistent profitability.
     </p>
   </div>
 </section>
 
-    {/* Meet Mushkert Section */}
+    {/* Meet  Section */}
     <section className="py-12 md:py-20">
       <div className="container">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
@@ -189,11 +189,11 @@ const Landing = () => (
             />
           </div>
           <div className="flex-1 space-y-4">
-            <h3 className="text-2xl sm:text-3xl font-bold">Meet <span className="gold-text">Mushkert</span></h3>
+            <h3 className="text-2xl sm:text-3xl font-bold">Meet <span className="gold-text">Deleon</span></h3>
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-              Meet Mushkert – a passionate gold trader who lives and breathes XAUUSD. With over a decade of
+              Meet Deleon – a passionate gold trader who lives and breathes XAUUSD. With over a decade of
               experience analyzing market movements, he has honed strategies that focus on consistency, risk
-              management, and disciplined trading. Today, Mushkert personally shares his insights with a
+              management, and disciplined trading. Today, Deleon personally shares his insights with a
               community of traders committed to growing their skills and profiting smartly in the gold markets.
             </p>
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
@@ -316,7 +316,7 @@ const Landing = () => (
             <span className="font-semibold">James K.</span>
           </div>
           <p className="text-muted-foreground italic">
-            "I've been following MushkertFX for 6 months. The signals are precise, and the community is solid. My account has grown steadily without the stress."
+            "I've been following Deleon_Ke for 6 months. The signals are precise, and the community is solid. My account has grown steadily without the stress."
           </p>
           <div className="flex gap-1 mt-3">
             {[1,2,3,4,5].map((_, i) => (
@@ -363,7 +363,7 @@ const Landing = () => (
           Get high-probability XAUUSD signals, precise entry points, and disciplined
           risk management directly inside our private Telegram channel.
           <span className="block mt-2">
-            Join serious traders already compounding with MushkertFX.
+            Join serious traders already compounding with Deleon_Ke.
           </span>
         </p>
         <Link to="/membership">

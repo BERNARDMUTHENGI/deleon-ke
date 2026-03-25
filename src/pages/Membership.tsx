@@ -8,7 +8,7 @@ const benefits = [
   "Weekly mentorship sessions",
   "Trading psychology lessons",
   "Risk management frameworks",
-  "Priority support from MushkertFX",
+  "Priority support from DeleonFX",
 ];
 
 const Membership = () => (

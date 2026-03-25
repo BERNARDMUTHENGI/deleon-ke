@@ -12,7 +12,7 @@ const resources = [
   {
     icon: LineChart,
     title: "Gold Trading Strategy",
-    desc: "Learn MushkertFX's proprietary approach to reading XAUUSD price action and identifying high-probability setups.",
+    desc: "Learn DeleonFX's proprietary approach to reading XAUUSD price action and identifying high-probability setups.",
     level: "Intermediate",
     lessons: 8,
   },
@@ -47,7 +47,7 @@ const Learn = () => (
         Trading <span className="gold-text">Education</span>
       </h1>
       <p className="text-muted-foreground text-lg md:text-xl mb-12 max-w-full">
-        Structured courses designed to take your gold trading skills from beginner to pro. Learn strategies, risk management, and market analysis directly from MushkertFX experts.
+        Structured courses designed to take your gold trading skills from beginner to pro. Learn strategies, risk management, and market analysis directly from DeleonFX experts.
       </p>
       <Link to="/membership">
         <button className="bg-gold text-background font-semibold px-8 py-4 rounded-xl shadow-lg hover:scale-[1.03] transition-transform flex items-center gap-2 mb-12">
@@ -89,7 +89,7 @@ const Learn = () => (
           </h2>
           <p className="text-muted-foreground max-w-full mb-8 sm:mb-10">
             Get high-probability XAUUSD signals, precise entry points, and disciplined risk management directly inside our private Telegram channel.
-            <span className="block mt-2">Join serious traders already compounding with MushkertFX.</span>
+            <span className="block mt-2">Join serious traders already compounding with DeleonFX.</span>
           </p>
           <Link to="/membership">
             <button className="bg-gold text-background font-semibold px-6 sm:px-8 py-4 sm:py-6 text-base rounded-xl shadow-lg hover:scale-[1.02] transition-transform flex items-center gap-2">
