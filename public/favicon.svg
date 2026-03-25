@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F0B90B"/>
-      <stop offset="100%" stop-color="#D4A20A"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="14" fill="#111827"/>
-  <text x="32" y="46" font-family="Manrope,Arial,sans-serif" font-size="40" font-weight="800" fill="url(#g)" text-anchor="middle">M</text>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="none"></rect>
+  
+  <path d="M50 30 
+       L50 170 
+       L100 170 
+       C145 170 170 145 170 100 
+       C170 55 145 30 100 30 
+       Z" fill="#199D69"></path>
 </svg>
